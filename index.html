@@ -235,6 +235,8 @@
               <textarea name="user_message" id="message" class="contact_input" required placeholder="Message"></textarea>
               <label for="message" class="contact_label">Message</label>
             </div>
+
+            <p class="contact_message" id="contact-message"></p>
             
             <button type="submit" class="contact_button button">
               <i class="ri-send-plane-line"></i> Send Message
@@ -276,13 +278,26 @@
     </section>
   </main>
 
+  <!-- Footer -->
 
-  <foteer class="footer"></foteer>
+  <footer class="footer">
+    <div class="footer_container container grid">
+      <ul class="footer_links">
+        <li><a href="#about" class="footer_link">About</a></li>
+        <li><a href="#services" class="footer_link">Services</a></li>
+        <li><a href="#projects" class="footer_link">Projects</a></li>
+      </ul>
+
+       <span class="footer_copy">
+        &#169; All Rights Reserved By | Walid Bin Khaled.
+       </span>
+    </div>
+  </footer>
      <!--=============== SCROLLREVEAL ===============-->
      <script src=""></script>
       
      <!--=============== EMAIL JS ===============-->
-     
+     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
      <!--=============== MAIN JS ===============-->
      <script src="assets/js/main.js"></script>
