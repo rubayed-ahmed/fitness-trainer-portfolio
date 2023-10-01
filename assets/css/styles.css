@@ -278,6 +278,7 @@ body.dark-theme {
 .nav_toggle {
   font-size: 1rtrem;
   cursor: pointer;
+  border-radius: 3px;
 }
 
 /* Navigation for mobile devices */
@@ -410,6 +411,7 @@ body.dark-theme {
 .home_img {
   position: relative;
   z-index: 10;
+  border-radius: 5px;
 }
 
 .home_shadow {
@@ -513,6 +515,7 @@ body.dark-theme {
   font-size: 1rem;
   cursor: pointer;
   overflow: hidden;
+  border-radius: 3px;
   transition: background-color 0.2s;
 }
 
@@ -550,6 +553,7 @@ body.dark-theme {
   padding: 1.1rem 1.5rem;
   color: var(--white-color);
   font-weight: var(--font-medium);
+  border-radius: 3px;
   transition: background-color 0.4s;
 }
 
@@ -926,6 +930,7 @@ body.dark-theme {
   padding: 6px;
   color: var(--white-color);
   font-size: 1.25rem;
+  border-radius: 3px;
   display: grid;
   place-items: center;
   transform: background-color 0.3s;
@@ -990,6 +995,7 @@ body.dark-theme {
   display: inline-flex;
   padding: 8px;
   font-size: 1.25rem;
+  border-radius: 3px;
   color: var(--white-color);
   z-index: var(--z-tooltip);
   transition: bottom 0.4s, transform 0.4s, background-color 0.4s;
@@ -1012,6 +1018,7 @@ body.dark-theme {
   }
   .home_image {
     width: 180px;
+
   }
   .about_image {
     width: 180px;
@@ -1280,6 +1287,7 @@ body.dark-theme {
   }
   .about_buttons {
     justify-content: initial;
+    
   }
   .button_ghost {
     padding: 0.75rem;
