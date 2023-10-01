@@ -44,7 +44,7 @@ contactMessage = document.getElementById('contact-message')
 
 const sendEmail = (e) => {
     e.preventDefault()
-    emailjs.sendForm('service_3b13n0d', 'template_cehg1cr', '#contact-form', 'EltKtDlrAw-d8doJL')
+    emailjs.sendForm('service_3b13n0d', 'template_egq1ohr', '#contact-form', 'EltKtDlrAw-d8doJL')
     .then(() => {
         // show send message
         contactMessage.textContent = "Message sent successfully ✅"

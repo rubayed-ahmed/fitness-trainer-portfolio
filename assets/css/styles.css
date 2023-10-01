@@ -467,6 +467,7 @@ body.dark-theme {
   color: var(--white-color);
   font-size: 1.25rem;
   padding: 6px;
+  border-radius: 3px;
   display: grid;
   place-items: center;
   transition: background-color 0.3s;
@@ -516,7 +517,7 @@ body.dark-theme {
   cursor: pointer;
   overflow: hidden;
   border-radius: 3px;
-  transition: background-color 0.2s;
+  transition: background-color .1s ease-out;
 }
 
 .home_scroll-box i {
@@ -1127,6 +1128,7 @@ body.dark-theme {
     background: var(--black-color);
     color: var(--white-color);
     padding: 1.1rem 1.5rem;
+    border-radius: 3px;
   }
   .nav_link-button {
     color: var(--white-color);
@@ -1226,6 +1228,7 @@ body.dark-theme {
   .home_social-link {
     font-size: 1.5rem;
     padding: 0.5rem;
+    
   }
   .about_container {
     grid-template-columns: 440px 525px;
